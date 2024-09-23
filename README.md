@@ -7,7 +7,7 @@ This is my first Android application, created as part of my journey to learn mob
 ## UI OUTPUT
 ![App ScreenshotAfterFirstCommit](afterc1.jpg)
 ![App ScreenshotAfterSecondCommit](afterc2.jpg)
-[Download/View My Video]([https://github.com/yourusername/your-repo-name/raw/master/path/to/your-video.mp4](https://github.com/THakgvLO/MyNWUServiceApp/raw/refs/heads/master/video.mp4))
+[Download/View My Video]([https://github.com/yourusername/your-repo-name/raw/master/path/to/your-video.mp4](https://github.com/THakgvLO/MyNWUServiceApp/raw/refs/heads/master/video.mp4)
 
 ## Features
 
