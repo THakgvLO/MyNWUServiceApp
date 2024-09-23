@@ -4,6 +4,11 @@
 
 This is my first Android application, created as part of my journey to learn mobile app development. The app demonstrates basic navigation and UI components within the Android framework. While it has several mistakes and areas for improvement, it serves as a foundational project that showcases my learning progress.
 
+## UI OUTPUT
+![App ScreenshotAfterFirstCommit](afterc1.jpg)
+![App ScreenshotAfterSecondCommit](afterc2.jpg)
+[Download/View My Video]([https://github.com/yourusername/your-repo-name/raw/master/path/to/your-video.mp4](https://github.com/THakgvLO/MyNWUServiceApp/raw/refs/heads/master/video.mp4))
+
 ## Features
 
 - **Main Activity**: The main entry point of the app where users can interact with buttons.
