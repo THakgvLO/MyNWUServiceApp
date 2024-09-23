@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_a_campus_service"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/campusChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_your_campus"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/potchCampus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/potchefstroom" />
+
+            <RadioButton
+                android:id="@+id/mahikeng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mahikeng" />
+
+            <RadioButton
+                android:id="@+id/vaal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vanderbijlpark" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/serviceChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_service"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/diningHall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dining_hall" />
+
+            <RadioButton
+                android:id="@+id/library"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_library" />
+
+            <RadioButton
+                android:id="@+id/learningCentre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/centre_for_teaching_and_learning" />
+
+            <RadioButton
+                android:id="@+id/educationLibrary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/education_library" />
+        </RadioGroup>
+
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            style="?android:attr/ratingBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:numStars="5"
+            android:stepSize="0.5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+        <TextView
+            android:id="@+id/leaveReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_a_review"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minLines="5"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/viewLink"
+            android:layout_width="185dp"
+            android:layout_height="65dp"
+            android:text="@string/view_rate" />
+
+
+    </LinearLayout>
+</ScrollView>

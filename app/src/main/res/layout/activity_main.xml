@@ -9,6 +9,11 @@
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <TextView
         android:id="@+id/Service_App"
         android:layout_width="140dp"
@@ -41,6 +46,7 @@
         android:layout_width="292dp"
         android:layout_height="110dp"
         android:layout_marginBottom="330dp"
+        android:onClick="rateService"
         android:text="@string/rate_a_service"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +58,7 @@
         android:layout_width="302dp"
         android:layout_height="106dp"
         android:layout_marginBottom="194dp"
+        android:onClick="viewRatings"
         android:text="@string/view_ratings_and_reviews"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,6 +70,7 @@
         android:layout_width="304dp"
         android:layout_height="100dp"
         android:layout_marginBottom="76dp"
+        android:onClick="LocateServices"
         android:text="@string/locate_a_service"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
